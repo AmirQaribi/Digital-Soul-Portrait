@@ -1,5 +1,6 @@
 import React from 'react';
 import type { StoredImage } from '../types';
+import { DownloadIcon } from './Icons';
 
 interface GalleryProps {
   images: StoredImage[];
@@ -45,6 +46,17 @@ const Gallery: React.FC<GalleryProps> = ({ images, isLoading }) => {
       minute: '2-digit'
     });
   };
+  
+  const handleDownload = (url: string, timestamp: number) => {
+    const a = document.createElement('a');
+    a.href = url;
+    const date = new Date(timestamp);
+    const filename = `digital-soul-${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}_${String(date.getHours()).padStart(2, '0')}${String(date.getMinutes()).padStart(2, '0')}.png`;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
 
   return (
     <div className="mt-16">
@@ -65,7 +77,16 @@ const Gallery: React.FC<GalleryProps> = ({ images, isLoading }) => {
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 loading="lazy"
               />
-               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-2">
+               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-2 flex flex-col justify-between">
+                <div className="flex justify-end">
+                    <button
+                        onClick={() => handleDownload(image.url, image.timestamp)}
+                        className="p-1.5 rounded-full bg-slate-900/50 hover:bg-cyan-500/50 text-white transition-all transform scale-0 group-hover:scale-100 duration-200"
+                        aria-label="Download image"
+                    >
+                        <DownloadIcon className="w-5 h-5" />
+                    </button>
+                </div>
                  <time className="text-white text-xs font-mono" dateTime={new Date(image.timestamp).toISOString()}>
                     {formatDate(image.timestamp)}
                   </time>
