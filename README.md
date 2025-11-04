@@ -4,7 +4,7 @@
 
 Digital Soul Portrait is a creative web application powered by the Google Gemini API. It acts as an AI artist, analyzing a conceptual social media profile to generate a poetic "digital soul" description and then designs a unique ghost character that visually represents the user's online essence.
 
-![A screenshot of the Digital Soul Portrait app showing the input form on the left and a generated ghost and soul description on the right.](./public/images/showcase.png)
+![A screenshot of the Digital Soul Portrait app showing the input form on the left and a generated ghost and soul description on the right.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/showcase.png)
 
 ---
 
@@ -14,7 +14,7 @@ Here are a few examples of digital souls given form by the AI, each with its own
 
 | The Coder's Muse | The Melancholy Artist | The Starry-Eyed Dreamer |
 | :---: |:---:|:---:|
-| ![A ghost of an actor who posted about his last theater and love 🍌 emoji.](./public/images/ghost-example-1.png) | ![A ghost of a bank manager who posted about war concerns with 😒 emoji.](./public/images/ghost-example-2.png) | ![A ghost of a developer who posted about hiking last weekend with 😊 emoji.](./public/images/ghost-example-3.png) |
+| ![A ghost of an actor who posted about his last theater and love 🍌 emoji.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/ghost-example-1.png) | ![A ghost of a bank manager who posted about war concerns with 😒 emoji.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/ghost-example-2.png) | ![A ghost of a developer who posted about hiking last weekend with 😊 emoji.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/ghost-example-3.png) |
 
 ---
 
