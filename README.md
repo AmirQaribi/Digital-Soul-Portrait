@@ -5,6 +5,12 @@
 Digital Soul Portrait is a creative web application powered by the Google Gemini API. It acts as an AI artist, analyzing a conceptual social media profile to generate a poetic "digital soul" description and then designs a unique ghost character that visually represents the user's online essence.
 
 <p align="center">
+  <a href="https://ai.studio/apps/drive/17QV6psk0YIhKXNowdcv_p__oWX2ycfuL" target="_blank">
+    <img src="https://img.shields.io/badge/Test%20The%20App-Launch-cyan?style=for-the-badge&logo=google-gemini" alt="Test the App">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/be9f261c-853b-4a8b-a141-94ab0b4babaa" 
        alt="A screenshot of the Digital Soul Portrait app showing the input form on the left and a generated ghost and soul description on the right." 
        width="700">
