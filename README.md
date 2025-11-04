@@ -4,19 +4,29 @@
 
 Digital Soul Portrait is a creative web application powered by the Google Gemini API. It acts as an AI artist, analyzing a conceptual social media profile to generate a poetic "digital soul" description and then designs a unique ghost character that visually represents the user's online essence.
 
-![A screenshot of the Digital Soul Portrait app showing the input form on the left and a generated ghost and soul description on the right.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/showcase.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/be9f261c-853b-4a8b-a141-94ab0b4babaa" 
+       alt="A screenshot of the Digital Soul Portrait app showing the input form on the left and a generated ghost and soul description on the right." 
+       width="700">
+</p>
 
 ---
 
-## A Glimpse into the Ether: Gallery of Souls
+## 🕯️ A Glimpse into the Ether: Gallery of Souls
 
-Here are a few examples of digital souls given form by the AI, each with its own unique accessories and aura reflecting its digital persona.
+Here are a few examples of **digital souls** given form by the AI —  
+each with its own unique aura, memory, and whisper from the digital beyond.
 
-| The Coder's Muse | The Melancholy Artist | The Starry-Eyed Dreamer |
-| :---: |:---:|:---:|
-| ![A ghost of an actor who posted about his last theater and love 🍌 emoji.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/ghost-example-1.png) | ![A ghost of a bank manager who posted about war concerns with 😒 emoji.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/ghost-example-2.png) | ![A ghost of a developer who posted about hiking last weekend with 😊 emoji.](https://raw.githubusercontent.com/AmirQaribi/digital-soul-portrait/main/public/images/ghost-example-3.png) |
+| **The Banished Performer** | **The Weary Financier** | **The Wandering Coder** |
+| :---: | :---: | :---: |
+| <img width="280" alt="A ghost of an actor who posted about his last theater and love 🍌 emoji." src="https://github.com/user-attachments/assets/0086812b-d10a-4574-b97e-0fb81a15965a" /> | <img width="280" alt="A ghost of a bank manager who posted about war concerns with 😒 emoji." src="https://github.com/user-attachments/assets/30891bc1-26b2-4b0b-89fd-1adc17322cd0" /> | <img width="280" alt="A ghost of a developer who posted about hiking last weekend with 😊 emoji." src="https://github.com/user-attachments/assets/b6b380ed-a10e-4669-acac-2d94660a5fdc" /> |
+
+<p align="center">
+  <em>Each image is a fragment — a glimpse of consciousness reborn as data, shimmering between life and algorithm.</em>
+</p>
 
 ---
+
 
 ## ✨ Features
 
